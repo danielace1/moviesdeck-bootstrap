@@ -18,6 +18,10 @@ Welcome to the MoviesDeck repository! Crafted with Bootstrap, this project showc
 - _Icons_ : Icons sourced from [Font Awesome](https://fontawesome.com/) .
 - _Movie Data & Ratings_ : Information and ratings are referenced from [IMDb](https://www.imdb.com/) .
 
+## License
+
+[MIT](/LICENSE)
+
 ##### Connect with me on:
 
 - [Linked-in](https://www.linkedin.com/in/sudharsan-a-b40506290/)
