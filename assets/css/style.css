@@ -61,7 +61,7 @@ body {
 
 .home-carousel {
   margin-top: -475px;
-  margin-left: -110px;
+  margin-left: -115px;
 }
 
 .gen-tag-line {
@@ -305,7 +305,7 @@ section.fantasy-movies {
 /* Horror Movies */
 section.horror-movies {
   background-color: #1d1d1d;
-  padding: 40px;
+  padding: 45px;
 }
 
 .horror-movies h2 {
@@ -330,7 +330,7 @@ section.horror-movies {
 }
 
 .horror-movies .carousel-indicators {
-  bottom: -35px !important;
+  bottom: -40px !important;
 }
 
 .horror-movies a {
@@ -493,7 +493,28 @@ footer {
   padding: 2px;
   background-color: #1d1d1d;
   color: #9c9898;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.footer-items ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-items li {
+  margin-right: 15px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.footer-items li a:hover {
+  color: #64a947;
+  transition: all 0.3s ease-out 0s;
+}
+
+footer hr {
+  color: #4e4e4e;
 }
 
 footer a {
@@ -504,7 +525,7 @@ footer a {
 /* Media Query */
 @media only screen and (min-width: 2560px) {
   .home-carousel {
-    margin-left: 0;
+    margin-left: 270px;
   }
 
   .home-right-img img {
@@ -514,15 +535,26 @@ footer a {
   .video-play-btn {
     left: 77%;
   }
+
+  .carousel-control-prev,
+  .carousel-control-prev-icon {
+    margin: auto;
+  }
+
+  .carousel-control-next,
+  .carousel-control-next-icon {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .home-right-img img {
     width: 400px;
+    margin-left: 53px;
   }
 
   .video-play-btn {
-    left: 85%;
+    left: 88%;
   }
 
   .video-play-btn .fa-circle-play {
