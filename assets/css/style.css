@@ -54,14 +54,16 @@ body {
 
 /* Home Section */
 .carousel-item .img {
+  position: relative;
   width: 100%;
-  height: 650px;
-  opacity: 0.79;
+  height: 630px;
 }
 
 .home-carousel {
-  margin-top: -475px;
-  margin-left: -115px;
+  position: absolute;
+  left: -12%;
+  right: 50%;
+  top: -29em;
 }
 
 .gen-tag-line {
@@ -130,41 +132,30 @@ body {
   transition: all 0.3s ease 0s;
 }
 
-.home-right-img img {
-  margin-top: -530px;
-  margin-left: 30px;
-  border-radius: 5px;
-  width: 550px;
+.gen-meta-btn a > button > i {
+  font-size: 20px;
 }
 
-.video-play-btn {
+.home-right-video {
   position: absolute;
-  content: "";
-  left: 84%;
-  top: -370%;
-  transform: translate(-50%, -50%);
-  transition: all 0.2s ease 0s;
+  top: -26em;
+  right: -3%;
 }
 
-.video-play-btn .fa-circle-play {
-  font-size: 70px;
-  transition: all 0.2s ease 0s;
-  color: var(--primary-color);
+.carousel-control-prev {
+  margin-left: -120px;
 }
 
-.video-play-btn .fa-circle-play:hover {
-  color: #64a947;
-  transition: all 0.2s ease 0s;
-}
-
-.carousel-control-prev,
 .carousel-control-prev-icon {
-  margin-left: -40px;
+  margin-left: 120px;
 }
 
-.carousel-control-next,
+.carousel-control-next {
+  margin-right: -120px;
+}
+
 .carousel-control-next-icon {
-  margin-right: -40px;
+  margin-right: 120px;
 }
 
 /* Popup Video */
@@ -247,7 +238,7 @@ section.action-movies {
 /* Fantasy Movies */
 section.fantasy-movies {
   background-color: #2a2a2a;
-  padding: 40px;
+  padding: 48px;
 }
 
 .fantasy-movies .carousel-indicators button {
@@ -525,51 +516,24 @@ footer a {
 /* Media Query */
 @media only screen and (min-width: 2560px) {
   .home-carousel {
-    margin-left: 270px;
-  }
-
-  .home-right-img img {
-    width: 600px;
-  }
-
-  .video-play-btn {
-    left: 77%;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-prev-icon {
-    margin: auto;
-  }
-
-  .carousel-control-next,
-  .carousel-control-next-icon {
-    margin: auto;
+    left: 15%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .home-right-img img {
-    width: 400px;
-    margin-left: 53px;
-  }
-
-  .video-play-btn {
-    left: 88%;
-  }
-
-  .video-play-btn .fa-circle-play {
-    font-size: 55px;
+  .home-right-video iframe {
+    width: 400px !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .home-carousel {
-    margin: auto;
-    margin-top: -500px;
-    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: -30em;
   }
 
-  .home-right-img {
+  .home-right-video {
     display: none;
   }
 
