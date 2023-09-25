@@ -9,7 +9,6 @@ Welcome to the MoviesDeck repository! Crafted with Bootstrap, this project showc
 - _Navbar_ : Navigate through the collection and other important sections smoothly.
 - _Carousel_ : Highlight and cycle through featured films effortlessly.
 - _Cards_ : Display movie details in a structured and aesthetic format.
-- _Video Popup_ : Engage with trailers or clips through an AJAX-powered video modal, for an on-the-spot cinematic experience.
 
 **_Feel free to explore the code, suggest improvements, or fork the project!_**
 
